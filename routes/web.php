@@ -20,3 +20,5 @@ Route::get('/cv', [HomeController::class,"cv"])->name('cv');
 Route::get('/about', [HomeController::class,"about"])->name('about');
 Route::get('/service', [HomeController::class,"service"])->name("service");
 Route::get('/branches',[HomeController::class,"branches"])->name("branches");
+Route::get('/branches-input',[HomeController::class,"branchesInput"])->name("branchesInput");
+Route::get('/branches-output',[HomeController::class,"branchesOutput"])->name("branchesOutput");

@@ -21,9 +21,33 @@
 
 <body class="alart aleart-sucsess">
     @include('layouts_master.chackscrine')
-    <div class="logo"><img src="{{ asset('frontend_file/assets/img/logo.png') }}" alt="logo site"></div>
+
+    <div class="header-page">
+        <a href="{{ route('home') }}"><i class="fa-solid fa-chevron-right"></i></a>
+        <span>{{ $title }}</span>
+        <div class="logo-page"><img src="{{ asset('frontend_file/assets/img/logo.png') }}" alt="logo site"></div>
+    </div>
+    <main>
+        @if ($component === 'about')
+            <x-about />
+        @elseif ($component === 'service')
+            <x-contact />
+        @elseif ($component === 'cv')
+            <x-cv />
+        @elseif ($component === 'branches')
+            <x-branches />
+            @elseif ($component === 'branchesInput')
+            <x-branchesInput />
+            @elseif ($component === 'branchesOutput')
+            <x-branchesOutput />
+        @else
+        @endif
 
 
+
+
+
+    </main>
     <footer class="d-grid">
         <div>
             <a href="www.edutsn.com">www.edutsn.com</a>
