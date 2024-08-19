@@ -1,0 +1,35 @@
+{
+  "config": {
+    "default": "en"
+  },
+  "language": {
+    "en": {
+      "#Company_Branches": "Company Branches",
+    
+      "#Cv_CTO": "CTO CV",
+      "#Contact_us": "Contact Us",
+      "#About_Us": "About Us",
+      "#Lang": "Lang",
+      "#Mashhad_branch": "Mashhad Branch:",
+      "#address_discription_Mashhad": "Between Shariati Square and Ahmedabad 1, next to Bank D - first floor - unit 3",
+      "#Tehran_branch": "Mashhad Branch:",
+      "#address_discription_Tehran": "Next to the Iraqi Consulate",
+      "#more_info":"more info",
+      "#branches_Iran":"Our branches in Iran"
+    },
+    "fa": {
+      "#Company_Branches": "شعب شرکت ",
+   
+      "#Cv_CTO": "رزومه موسس",
+      "#Contact_us": "تماس با ما ",
+      "#About_Us": "درباره ما",
+      "#Lang": "زبان",
+      "#Mashhad_branch": "شعبه مشهد :",
+      "#address_discription_Mashhad": "حدفاصل میدان شریعتی تا احمد آباد 1 جنب بانک دی -طبقه اول -واحد 3",
+      "#Tehran_branch": "شعبه تهران :",
+      "#address_discription_Tehran": "جنب کنسولگری عراق",
+      "#more_info":"اطلاعات بیشتر",
+      "#branches_Iran":"شعب ما در ایران"
+    }
+  }
+}
