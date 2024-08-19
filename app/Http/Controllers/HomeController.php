@@ -18,24 +18,42 @@ class HomeController extends Controller
       * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
       */
      public function cv() {
-        return view("cv");
+        $component="cv";
+        $title="رزومه موسس";
+        return view("layouts_master.page",compact("title",'component'));
      }
     /**
      * Summary of service
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
     public function  service(){
-        return view("service");
+        $component="service";
+        $title="خدمات  ما ";
+        return view("layouts_master.page",compact("title",'component'));
     }
     /**
      * Summary of branches
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
     public function  branches(){
-        return view("branches");
+        $component="branches";
+        $title="شعبات ما ";
+        return view("layouts_master.page",compact("title",'component'));
     }
     public function about(){
-        return view("about");
+        $component="about";
+        $title="درباره ما ";
+        return view("layouts_master.page",compact("title",'component'));
+    }
+    public function branchesInput(){
+        $component="branchesInput";
+        $title="شعبه های ما ";
+        return view("layouts_master.page",compact("title",'component'));
+    }
+    public function branchesOutput(){
+        $component="branchesOutput";
+        $title="شعبه های ما ";
+        return view("layouts_master.page",compact("title",'component'));
     }
 }
 

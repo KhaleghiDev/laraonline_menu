@@ -655,3 +655,18 @@ ul.menu-footer li a i:hover{
 .menu-item span:hover{
     color: #ffa200 !important;
 }
+/* header page */
+.header-page{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-page .logo-page img {
+    width: 96px;
+}
+.header-page span {
+    color: #ffa300 ;
+}
+
