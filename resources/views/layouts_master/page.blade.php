@@ -23,7 +23,11 @@
     @include('layouts_master.chackscrine')
 
     <div class="header-page">
-        <a href="{{ route('home') }}"><i class="fa-solid fa-chevron-right"></i></a>
+        <div class="back">
+
+            <a href="{{ URL::previous() }}"><i class="fa-solid fa-chevron-right"></i></a>
+            <a class="px-5" href="{{ route('home') }}"><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-home"></i></a>
+        </div>
         <span>{{ $title }}</span>
         <div class="logo-page"><img src="{{ asset('frontend_file/assets/img/logo.png') }}" alt="logo site"></div>
     </div>
@@ -36,9 +40,9 @@
             <x-cv />
         @elseif ($component === 'branches')
             <x-branches />
-            @elseif ($component === 'branchesInput')
+        @elseif ($component === 'branchesInput')
             <x-branchesInput />
-            @elseif ($component === 'branchesOutput')
+        @elseif ($component === 'branchesOutput')
             <x-branchesOutput />
         @else
         @endif
@@ -62,5 +66,6 @@
         </div>
     </footer>
 </body>
+<script src="{{ asset('frontend_file/assets/js/swiper-element-bundle.min.js') }}"></script>
 
 </html>

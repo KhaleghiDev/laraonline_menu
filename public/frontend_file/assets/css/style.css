@@ -545,14 +545,7 @@ a {
     margin: 7px 5px;
 }
 
-img.profile {
-    display: flex;
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border: 1px solid #000;
-    border-radius: 50%;
-}
+
 
 .box-address {
     border: 1px solid #000;
@@ -582,7 +575,7 @@ img.profile {
     background-size: 30px 30px;
     border-radius: 50%;
     position: absolute;
-    top: 0;
+    top: 150px;
     right: -33px;
 }
 
@@ -610,6 +603,7 @@ img.profile {
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-top: 15vh;
 }
 
 
@@ -667,6 +661,71 @@ ul.menu-footer li a i:hover{
     width: 96px;
 }
 .header-page span {
-    color: #ffa300 ;
+    color: #ffa300;
+    font-size: 26px;
+}
+/* swiper */
+html,
+body {
+    position: relative;
+    height: 100%;
 }
 
+body {
+
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+swiper-container {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+}
+/* end swiper */
+/* about page */
+.box-about{
+    margin-top: 50px;
+}
+
+
+.box-white {
+    background: #d5d5d5;
+
+    padding: 10px 30px;
+    border-radius: 12px;
+    line-height: 1.6rem;
+}
+.box-title {
+    display: flex;
+    color: #ffa300;
+    font-size: 21px;
+}
+.header-about{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 65px;
+}
+.cv .profile{
+    display: block;
+
+    height: 50%;
+    width: 37%;
+    margin: 0 auto;
+    border-radius: 50%;
+}

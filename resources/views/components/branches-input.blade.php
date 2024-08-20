@@ -1,13 +1,26 @@
 <div>
-   <span>شعبه تهران :</span>
-   <br>
-   <span class="diescription">
-    تهران -جنب سفارت عراق
-   </span>
-   <br>
-   <span>شعبه مشهد :</span>
-   <br>
-   <span class="diescription">
-        مشهد - میدان شریعتی به سمت احمد آباد 1 جنب بانک دی طبقه اول واحد 3 
-   </span>
+    <div class="container">
+    <div class="row">
+        <div class="box-about">
+            <div class="box-title mb-3">
+                <i class="fa-solid fa-location-dot"></i>
+                         <h3> شعبه تهران :</h3>
+            </div>
+            <p class="box-white">
+                تهران -جنب سفارت عراق
+
+            </p>
+        </div>
+
+        <div class="box-about">
+            <div class="box-title mb-3">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3> شعبه مشهد :</h3>
+            </div>
+            <p class="box-white">
+                مشهد - میدان شریعتی به سمت احمد آباد 1 جنب بانک دی طبقه اول واحد 3
+
+            </p>
+        </div>
+    </div>
 </div>
