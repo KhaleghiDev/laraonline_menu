@@ -583,17 +583,15 @@ a {
     width: 100px;
     height: 100px;
     --d: 4px;
-
     background: radial-gradient(circle at var(--d) var(--d),
 
             #fff calc(var(--d) - 1px),
             #0000 var(--d)) 0 0 / 50px 50px;
     background-size: 30px 30px;
     position: absolute;
-    bottom: 0;
-    left: -10px;
+    bottom: 23vh;
+    left: 16px;
 }
-
 .menu {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -603,7 +601,9 @@ a {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 15vh;
+    margin-top: 12vh;
+    font-size: 22px;
+    line-height: 2rem;
 }
 
 
@@ -704,8 +704,8 @@ swiper-slide img {
 
 
 .box-white {
-    background: #d5d5d5;
-
+    background: rgb(180,180,179);
+    background: linear-gradient(0deg, rgba(180,180,179,0.969625350140056) 0%, rgba(198,197,195,1) 100%);
     padding: 10px 30px;
     border-radius: 12px;
     line-height: 1.6rem;
@@ -732,7 +732,10 @@ swiper-slide img {
 .cheack{
     display: none;
 }
-@media screen and (min-width: 768px) {
+.color-text-all,.list-number a{
+    color: #025a82 !important;
+}
+@media screen and (min-width: 769px) {
     .cheack {
         display: flex;
         width: 100%;
@@ -746,5 +749,26 @@ swiper-slide img {
     }
     .cheack .error{
         color: red;
+        font-size: 18px;
     }
+    .app ,.circle2{
+        display: none;
+    }
+    .zoom-in-zoom-out {
+        margin: 24px;
+        animation: zoom-in-zoom-out 2s ease-out infinite;
+      }
+
+      @keyframes zoom-in-zoom-out {
+        0% {
+          transform: scale(1, 1);
+        }
+        50% {
+          transform: scale(1.5, 1.5);
+        }
+        100% {
+          transform: scale(1, 1);
+        }
+      }
+
 }

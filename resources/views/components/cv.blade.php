@@ -5,25 +5,29 @@
         <div class="box-about">
             <div class="box-title mb-3">
                 <i class="fa-solid fa-address-card"></i>
-                <h3> درباره مهندس حسین یعقوبی</h3>
+                <h3 class="text-white"> درباره مهندس حسین یعقوبی</h3>
             </div>
 
-            <div class="row">
-                <div class="col-5 box-white">
+            <div class="row m-2">
+                <div class="col-12 box-white">
                     <div class="box-title mb-3">
-                        <i class="fa-solid fa-building-columns"></i>
-                        <h3> راه های ارتباطی</h3>
+                        <i class="fa-solid fa-comments"></i>
+                        <h3 class="color-text-all"> راه های ارتباطی</h3>
                     </div>
-                    <ul>
-                        <li> خط عراق :<a href="tel:0964780248881"> 0964780248881</ش></li>
-                        <li>خط ایران :<a href="tel:09020098798" >09020098798 </a></li>
-                        <li>واتساپ :<a class="d-flex align-items-center pix-header-text text-body-default" target="_self" href="https://wa.me/989020098798" title="WhatsApp"><i class="pixicon-whatsapp2 px-2"></i></a></li>
+                    <ul class="list-number">
+                        <li> خط عراق :<a href="tel:0964780248881"> 0964780248881</a>
+                        </li>
+                        <li>خط ایران :<a href="tel:09020098798">09020098798 </a></li>
+                        <li>واتساپ :<strong class="h4"><a target="_self" href="https://wa.me/989020098798" title="WhatsApp">
+                                    <i class="text-success fa-brands fa-whatsapp"></i>
+                                </a></strong>
+                        </li>
                     </ul>
                     <div class="box-title mb-3">
                         <i class="fa-solid fa-building-columns"></i>
-                        <h3> مدارک تحصیلی</h3>
+                        <h3 class="color-text-all"> مدارک تحصیلی</h3>
                     </div>
-                    <ul>
+                    <ul class="list-building">
                         <li> <span> کارشناسی مهندسی ژنتیک </span></li>
                         <li> <span> ارشد مهندسی ژنتیک-اصلاح نژاد </span></li>
                         <li> <span> کارشناسی ارشد مدیریت بازرگانی گرایش بازرگانی بین الملل </span></li>
@@ -32,7 +36,7 @@
 
                     <div class="box-title mb-3">
                         <i class="fa-solid fa-certificate"></i>
-                        <h3> مهارت ها </h3>
+                        <h3 class="color-text-all"> مهارت ها </h3>
                     </div>
                     <span> زبان انگلیسی </span>
                     <div class="progress">
@@ -60,23 +64,30 @@
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
-                <div class="col-7 box-white">
+
+            </div>
+            <div class="row m-2">
+                <div class="col-12 box-white">
                     <div class="box-title mb-3">
                         <i class="fa-solid fa-address-card"></i>
-                        <h3> درباره من </h3>
+                        <h3 class="color-text-all"> درباره من </h3>
                     </div>
-                    مهندس حسین یعقوبی نامی است که با شرکت طلوع سفیران نور عجین شده است.
-                    مهندس حسین یعقوبی، موسس و مدیر عامل شرکت طلوع سفیران نور را بیشتر بشانسیم.
-                    در این مطلب از سایت رسمی شرکت طلوع سفیران نور، قصد داریم که یک بیوگرافی جامع و کامل را از این
-                    کارآفرین
-                    برجسته، ارائه دهیم و در بخش های مختلف این مطلب، زندگی نامه و روزمه کاری پر بار مهندس حسین یعقوبی را
-                    خواهیم
-                    خواند.
-                    آشنایی با زندگی نامه و بیوگرافی مهندس حسین یعقوبی، تجربه‌ها، نحوه مشاوره و برنامه ریزی، تحصیلات،
-                    رزومه کاری
-                    و موفقیت هایی که این کارآفرین بزرگوار بدست آورده است، همه در این مطلب از سایت رسمی شرکت طلوع سفیران
-                    نور به
-                    شما ارائه می شود.
+                    <p class="color-text-all">
+                        مهندس حسین یعقوبی نامی است که با شرکت طلوع سفیران نور عجین شده است.
+                        مهندس حسین یعقوبی، موسس و مدیر عامل شرکت طلوع سفیران نور را بیشتر بشانسیم.
+                        در این مطلب از سایت رسمی شرکت طلوع سفیران نور، قصد داریم که یک بیوگرافی جامع و کامل را از این
+                        کارآفرین
+                        برجسته، ارائه دهیم و در بخش های مختلف این مطلب، زندگی نامه و روزمه کاری پر بار مهندس حسین یعقوبی
+                        را
+                        خواهیم
+                        خواند.
+                        آشنایی با زندگی نامه و بیوگرافی مهندس حسین یعقوبی، تجربه‌ها، نحوه مشاوره و برنامه ریزی، تحصیلات،
+                        رزومه کاری
+                        و موفقیت هایی که این کارآفرین بزرگوار بدست آورده است، همه در این مطلب از سایت رسمی شرکت طلوع
+                        سفیران
+                        نور به
+                        شما ارائه می شود.
+                    </p>
 
                 </div>
             </div>

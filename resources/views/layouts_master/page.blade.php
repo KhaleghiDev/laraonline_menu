@@ -21,51 +21,53 @@
 
 <body class="body">
     @include('layouts_master.chackscrine')
+    <div class="app">
+        <div class="header-page">
+            <div class="back">
 
-    <div class="header-page">
-        <div class="back">
-
-            <a href="{{ URL::previous() }}"><i class="fa-solid fa-chevron-right"></i></a>
-            <a class="px-5" href="{{ route('home') }}"><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-home"></i></a>
+                <a href="{{ URL::previous() }}"><i class="fa-solid fa-chevron-right"></i></a>
+                <a class="px-5" href="{{ route('home') }}"><i class="fa-solid fa-chevron-right"></i><i
+                        class="fa-solid fa-home"></i></a>
+            </div>
+            <span>{{ $title }}</span>
+            <div class="logo-page"><img src="{{ asset('frontend_file/assets/img/logo.png') }}" alt="logo site"></div>
         </div>
-        <span>{{ $title }}</span>
-        <div class="logo-page"><img src="{{ asset('frontend_file/assets/img/logo.png') }}" alt="logo site"></div>
-    </div>
-    <main>
-        @if ($component === 'about')
-            <x-about />
-        @elseif ($component === 'service')
-            <x-contact />
-        @elseif ($component === 'cv')
-            <x-cv />
-        @elseif ($component === 'branches')
-            <x-branches />
-        @elseif ($component === 'branchesInput')
-            <x-branchesInput />
-        @elseif ($component === 'branchesOutput')
-            <x-branchesOutput />
-        @else
-        @endif
+        <main>
+            @if ($component === 'about')
+                <x-about />
+            @elseif ($component === 'service')
+                <x-contact />
+            @elseif ($component === 'cv')
+                <x-cv />
+            @elseif ($component === 'branches')
+                <x-branches />
+            @elseif ($component === 'branchesInput')
+                <x-branchesInput />
+            @elseif ($component === 'branchesOutput')
+                <x-branchesOutput />
+            @else
+            @endif
 
 
 
 
 
-    </main>
-    <footer class="d-grid">
-        <div>
-            <a href="www.edutsn.com">www.edutsn.com</a>
-        </div>
-        <div>
-            <ul class="menu-footer">
-                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
-                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fab fa-youtube"></i></a></li>
-            </ul>
-        </div>
-    </footer>
+        </main>
+        <footer class="d-grid">
+            <div>
+                <a href="www.edutsn.com">www.edutsn.com</a>
+            </div>
+            <div>
+                <ul class="menu-footer">
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </footer>
 </body>
+</div>
 <script src="{{ asset('frontend_file/assets/js/swiper-element-bundle.min.js') }}"></script>
 
 </html>
