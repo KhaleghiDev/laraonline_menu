@@ -19,7 +19,7 @@
 
 </head>
 
-<body class="alart aleart-sucsess">
+<body class="body">
     @include('layouts_master.chackscrine')
 
     <div class="header-page">
