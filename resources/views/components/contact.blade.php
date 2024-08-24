@@ -2,10 +2,10 @@
     <div class="container">
         <h2 class="header-about"> با خانواده بزرگ طلوع سفیران نور آسیا</h2>
         <div class="row">
-            <div class="box-about col-6">
+            <div class="box-about col-12">
                 <div class="box-title mb-3">
                     <i class="fa fa-language" aria-hidden="true"></i>
-                    <h3> ترجمه </h3>
+                    <h3 class="text-white"> ترجمه </h3>
                 </div>
                 <p class="box-white">
                     این تجربه، ما را به توسعه فرهنگی و تحول شخصی می‌کشاند. در نهایت، ویزا یک دره‌ی باز به دنیایی از
@@ -15,10 +15,10 @@
                     تجاری را گسترش دهید. از طرفی، این تجربه می‌تواند به عنوان یک ابزار روان
                 </p>
             </div>
-            <div class="box-about col-6">
+            <div class="box-about col-12">
                 <div class="box-title mb-3">
                     <i class="fa-solid fa-square-check"></i>
-                    <h3> اخذ پذیرش </h3>
+                    <h3 class="text-white"> اخذ پذیرش </h3>
                 </div>
                 <p class="box-white">
                     شرکت طلوع سفیران نور به عنوان نماینده رسمی تعدادی از دانشگاه‌های معتبر در داخل و خارج از کشور، در
@@ -29,10 +29,10 @@
                     را ارائه می‌دهیم.
                 </p>
             </div>
-            <div class="box-about col-6">
+            <div class="box-about col-12">
                 <div class="box-title mb-3">
                     <i class="fa-brands fa-cc-visa"></i>
-                    <h3> درخواست ویزا </h3>
+                    <h3 class="text-white"> درخواست ویزا </h3>
                 </div>
                 <p class="box-white">
 
@@ -47,10 +47,10 @@
                     میتوانید با انسان های مهمان نواز در ایران آشنا شوید
                 </p>
             </div>
-            <div class="box-about col-6">
+            <div class="box-about col-12">
                 <div class="box-title mb-3">
                     <i class="fa-solid fa-house-laptop"></i>
-                    <h3> درخواست اقامت </h3>
+                    <h3 class="text-white"> درخواست اقامت </h3>
                 </div>
                 <p class="box-white">
                     دو نوع اصلی از انواع اقامت در سراسر جهان هستند.

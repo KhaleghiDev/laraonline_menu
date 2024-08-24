@@ -15,10 +15,10 @@
                         <h3 class="color-text-all"> راه های ارتباطی</h3>
                     </div>
                     <ul class="list-number">
-                        <li> خط عراق :<a href="tel:0964780248881"> 0964780248881</a>
+                        <li> خط عراق :<a href="tel:0964780248881"> 00964780248881</a>
                         </li>
                         <li>خط ایران :<a href="tel:09020098798">09020098798 </a></li>
-                        <li>واتساپ :<strong class="h4"><a target="_self" href="https://wa.me/989020098798" title="WhatsApp">
+                        <li class="d-none">واتساپ :<strong class="h4"><a target="_self" href="https://wa.me/989020098798" title="WhatsApp">
                                     <i class="text-success fa-brands fa-whatsapp"></i>
                                 </a></strong>
                         </li>

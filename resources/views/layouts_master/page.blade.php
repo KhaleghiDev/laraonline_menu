@@ -26,11 +26,15 @@
             <div class="back">
 
                 <a href="{{ URL::previous() }}"><i class="fa-solid fa-chevron-right"></i></a>
-                <a class="px-5" href="{{ route('home') }}"><i class="fa-solid fa-chevron-right"></i><i
+                <a class="px-3" href="{{ route('home') }}"><i class="fa-solid fa-chevron-right"></i><i
                         class="fa-solid fa-home"></i></a>
             </div>
             <span>{{ $title }}</span>
-            <div class="logo-page"><img src="{{ asset('frontend_file/assets/img/logo.png') }}" alt="logo site"></div>
+            <a class="px-5" href="{{ route('home') }}">
+                <div class="logo-page">
+                    <img src="{{ asset('frontend_file/assets/img/logo.png') }}" alt="logo site">
+                </div>
+            </a>
         </div>
         <main>
             @if ($component === 'about')
@@ -54,7 +58,7 @@
 
         </main>
         <footer class="d-grid">
-            <div>
+            <div class="link-footer">
                 <a href="www.edutsn.com">www.edutsn.com</a>
             </div>
             <div>

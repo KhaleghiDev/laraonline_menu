@@ -5,7 +5,7 @@
             <div class="box-about">
                 <div class="box-title mb-3">
                     <i class="fa-solid fa-users"></i>
-                    <h3> در سال 1398 تأسیس شد </h3>
+                    <h3 class="text-white"> در سال 1398 تأسیس شد </h3>
                 </div>
                 <p class="box-white">
                     مهاجرت، سفر و تحصیل به خارج از کشور، ویزا، موضوعاتی هستند که این روزها به شنیدن آنها عادت کرده ایم.
@@ -23,9 +23,9 @@
                 </p>
             </div>
             <div class="box-about">
-                <div class="box-title mb-3">
+                <div class="box-title mb-3  d-none">
                     <i class="fa-solid fa-certificate"></i>
-                    <h3> گواهی نامه ها </h3>
+                    <h3 class="text-white"> گواهی نامه ها </h3>
                 </div>
                 <p class="box-white">
                     <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true"
@@ -48,9 +48,9 @@
                 </p>
             </div>
             <div class="box-about">
-                <div class="box-title mb-3">
+                <div class="box-title mb-3 d-none">
                     <i class="fa fa-drivers-license"></i>
-                    <h3> مجوز های شرکت </h3>
+                    <h3 class="text-white"> مجوز های شرکت </h3>
                 </div>
                 <p class="box-white">
                     <swiper-container class="mySwiper2" pagination="true" effect="coverflow" grab-cursor="true"

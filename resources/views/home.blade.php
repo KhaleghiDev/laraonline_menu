@@ -41,7 +41,7 @@
                     </span>
                 </a></li>
             <li class="menu-item"><a href="{{ route('service') }}"> <span class="link-icon">
-                        <i class="fa-solid fa-bell-concierge"></i>
+                <i class="fa-brands fa-teamspeak"></i>
                     </span>
                     <span class="link-text">
                         خدمات
@@ -49,7 +49,7 @@
             <li class="menu-item">
                 <a href="{{ route('branches') }}">
                     <span class="link-icon">
-                        <i class="fas fa-building"></i>
+                        <i class="fa-solid fa-map-location-dot"></i>
                     </span>
                     <span class="link-text">
                         شعب
@@ -59,7 +59,7 @@
         </ul>
         <footer class="d-grid">
             <div>
-                <a href="www.edutsn.com">www.edutsn.com</a>
+                <a class="link-footer" href="www.edutsn.com">www.edutsn.com</a>
             </div>
             <div>
                 <ul class="menu-footer">

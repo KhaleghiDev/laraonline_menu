@@ -594,7 +594,7 @@ a {
 }
 .menu {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -604,14 +604,16 @@ a {
     margin-top: 12vh;
     font-size: 22px;
     line-height: 2rem;
+    width: 50%;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 
 .menu-item {
-
     height: 100px;
     width: 100%;
-
 }
 
 .menu-item a {
@@ -623,18 +625,19 @@ a {
 }
 
 footer {
-
     position: fixed;
     bottom: 0;
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
-    align-content: center;
     align-items: center;
     margin: 0 auto;
     width: 100%;
     height: 80px;
-
+    justify-content: center;
+    align-content: center;
+    left: 0;
+    right: 0;
 }
 
 ul.menu-footer {
@@ -642,20 +645,23 @@ ul.menu-footer {
     justify-content: center;
     column-gap: 28px;
 }
-
-ul.menu-footer li a i:hover{
+ul.menu-footer li a i{
     color: #ffa200;
 }
+ul.menu-footer li a i :hover{
+    color: #ffffff;
+}
+
 .menu-item span:hover{
     color: #ffa200 !important;
 }
 /* header page */
-.header-page{
+.header-page {
     display: flex;
     flex-wrap: nowrap;
-    align-content: center;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column-reverse;
 }
 .header-page .logo-page img {
     width: 96px;
@@ -669,10 +675,6 @@ html,
 body {
     position: relative;
     height: 100%;
-}
-
-body {
-
     font-size: 14px;
     color: #000;
     margin: 0;
@@ -735,6 +737,20 @@ swiper-slide img {
 .color-text-all,.list-number a{
     color: #025a82 !important;
 }
+.box-about i {
+    margin: 0 10px;
+}
+.link-footer {
+    border-bottom: 4px solid #ffa300;
+    line-height: 3;
+    width: 29%;
+    text-align: center;
+    margin: 0 auto 8px;
+}
+.back{
+    display: none;
+}
+
 @media screen and (min-width: 769px) {
     .cheack {
         display: flex;
