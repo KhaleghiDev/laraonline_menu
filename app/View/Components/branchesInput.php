@@ -21,6 +21,6 @@ class branchesInput extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.branches-input');
+        return view('components.branchesInput');
     }
 }

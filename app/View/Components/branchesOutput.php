@@ -21,6 +21,6 @@ class branchesOutput extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.branches-output');
+        return view('components.branchesOutput');
     }
 }
