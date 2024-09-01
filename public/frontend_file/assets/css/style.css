@@ -119,6 +119,8 @@ body {
 ol,
 ul {
     list-style: none;
+    margin-block-start: unset;
+    margin-block-end: unset;
 }
 
 blockquote,
@@ -169,8 +171,8 @@ audio,
 canvas,
 video {
     display: inline-block;
-    *display: inline;
-    *zoom: 1;
+    display: inline;
+    zoom: 1;
     max-width: 100%;
 }
 
@@ -276,7 +278,7 @@ legend {
     padding: 0;
     white-space: normal;
     /* 2 */
-    *margin-left: -7px;
+    margin-left: -7px;
     /* 3 */
 }
 
@@ -297,7 +299,7 @@ textarea {
     /* 2 */
     vertical-align: baseline;
     /* 3 */
-    *vertical-align: middle;
+    vertical-align: middle;
     /* 3 */
 }
 
@@ -342,7 +344,7 @@ input[type="submit"] {
     /* 2 */
     cursor: pointer;
     /* 3 */
-    *overflow: visible;
+    overflow: visible;
     /* 4 */
 }
 
@@ -368,9 +370,9 @@ input[type="radio"] {
     /* 1 */
     padding: 0;
     /* 2 */
-    *height: 13px;
+    height: 13px;
     /* 3 */
-    *width: 13px;
+    width: 13px;
     /* 3 */
 }
 
@@ -578,7 +580,19 @@ a {
     top: 150px;
     right: -33px;
 }
+.circle1 {
+    width: 100px;
+    height: 100px;
+    --d: 4px;
+    background: radial-gradient(circle at var(--d) var(--d),
 
+            #fff calc(var(--d) - 1px),
+            #0000 var(--d)) 0 0 / 50px 50px;
+    background-size: 30px 30px;
+    position: absolute;
+    top: 150px;
+    right: -33px;
+}
 .circle2 {
     width: 100px;
     height: 100px;
@@ -623,37 +637,45 @@ a {
     align-content: center;
     align-items: center;
 }
-
+.menu-item a:hover{
+    color: #ffa200;
+}
 footer {
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin: 0 auto;
-    width: 100%;
-    height: 80px;
-    justify-content: center;
-    align-content: center;
-    left: 0;
-    right: 0;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        width: 100%;
+        height: 80px;
+        font-size: 20px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+}
+li.menu-item:hover{
+    color: #ffa300 !important;
+}
+.footer-hero{
+
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+}
+.footer-hero a{
+    border-bottom: 2px solid #ffa300;;
 }
 
 ul.menu-footer {
     display: flex;
     justify-content: center;
     column-gap: 28px;
-}
-ul.menu-footer li a i{
-    color: #ffa200;
-}
-ul.menu-footer li a i :hover{
-    color: #ffffff;
-}
-
-.menu-item span:hover{
-    color: #ffa200 !important;
 }
 /* header page */
 .header-page {

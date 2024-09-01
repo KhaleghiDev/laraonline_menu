@@ -25,8 +25,8 @@
         <div class="logo"><img src="{{ asset('frontend_file/assets/img/logo.png') }}" alt="logo site"></div>
         <ul class="menu">
             <li class="menu-item"><a href="{{ route('cv') }}">
-                    <span class="link-icon" active>
-                        <i class="fas fa-file" active></i>
+                    <span class="link-icon">
+                        <i class="fa-solid fa-address-card"></i>
                     </span>
                     <span class="link-text">
                         رزومه موسس
@@ -57,9 +57,11 @@
                 </a>
             </li>
         </ul>
-        <footer class="d-grid">
-            <div>
-                <a class="link-footer" href="www.edutsn.com">www.edutsn.com</a>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <footer >
+            <div class="footer-hero">
+                <a href="www.edutsn.com">www.edutsn.com</a>
             </div>
             <div>
                 <ul class="menu-footer">
@@ -70,8 +72,7 @@
                 </ul>
             </div>
         </footer>
-        <div class="circle"></div>
-        <div class="circle2"></div>
+
     </div>
 
 

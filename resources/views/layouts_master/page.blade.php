@@ -57,8 +57,8 @@
 
 
         </main>
-        <footer class="d-grid">
-            <div class="link-footer">
+        <footer >
+            <div class="footer-hero">
                 <a href="www.edutsn.com">www.edutsn.com</a>
             </div>
             <div>
