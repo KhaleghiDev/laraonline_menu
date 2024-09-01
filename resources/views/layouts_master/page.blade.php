@@ -63,15 +63,16 @@
             </div>
             <div>
                 <ul class="menu-footer">
-                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                    <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
-                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/edu.tsn/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://wa.me/989002488881"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="https://www.facebook.com/edutsn.persian1/"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.youtube.com/@EDUTSN"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://x.com/tolosafirannoor"><i class="fa-solid fa-x"></i></a></li>
+                    <li><a href="https://www.tiktok.com/@edutsn"><i class="fa-brands fa-tiktok"></i></a></li>
                 </ul>
             </div>
         </footer>
 </body>
 </div>
 <script src="{{ asset('frontend_file/assets/js/swiper-element-bundle.min.js') }}"></script>
-
 </html>
