@@ -33,13 +33,13 @@
                         coverflow-effect-stretch="0" coverflow-effect-depth="100" coverflow-effect-modifier="1"
                         coverflow-effect-slide-shadows="true">
                         <swiper-slide>
-                            <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
+                            <img src="{{ asset("frontend_file/assets/img/Certificate/لوح-تقدیر-شرکت-2.jpg") }}" />
                         </swiper-slide>
                         <swiper-slide>
-                            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                            <img src="{{ asset("frontend_file/assets/img/Certificate/لوح-تقدیر-شرکت-4.jpg") }}" />
                         </swiper-slide>
                         <swiper-slide>
-                            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                            <img src="{{ asset("frontend_file/assets/img/Certificate/لوح-تقدیر-فارسی.jpg") }}" />
                         </swiper-slide>
                     </swiper-container>
 
@@ -58,13 +58,13 @@
                         coverflow-effect-stretch="0" coverflow-effect-depth="100" coverflow-effect-modifier="1"
                         coverflow-effect-slide-shadows="true">
                         <swiper-slide>
-                            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                            <img src="{{ asset("frontend_file/assets/img/role/آگهی-روزنامه.jpg") }}" />
                         </swiper-slide>
                         <swiper-slide>
-                            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                            <img src="{{ asset("frontend_file/assets/img/role/ثبت-شرکت-ها.jpg") }}" />
                         </swiper-slide>
                         <swiper-slide>
-                            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                            <img src="{{ asset("frontend_file/assets/img/role/مجوز-وزارت-فارسی-749x1024.jpg") }}" />
                         </swiper-slide>
                     </swiper-container>
                 </p>

@@ -94,8 +94,8 @@
         </div>
         <div class="box-about">
             <div class="box-title mb-3">
-                <i class="fa-solid fa-certificate"></i>
-                <h3> گواهی نامه ها </h3>
+                <i class="fa-solid fa-gallery-thumbnails"></i>
+                <h3> گالری تصاویر </h3>
             </div>
             <p class="box-white">
                 <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true"
@@ -103,18 +103,30 @@
                     coverflow-effect-stretch="0" coverflow-effect-depth="100" coverflow-effect-modifier="1"
                     coverflow-effect-slide-shadows="true">
                     <swiper-slide>
-                        <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
+                        <img src="{{ asset("frontend_file/assets/img/1.jpg") }}" />
                     </swiper-slide>
                     <swiper-slide>
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                        <img src="{{ asset("frontend_file/assets/img/2.jpg") }}" />
                     </swiper-slide>
                     <swiper-slide>
-                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                        <img src="{{ asset("frontend_file/assets/img/3.jpg") }}" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="{{ asset("frontend_file/assets/img/4.jpg") }}" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="{{ asset("frontend_file/assets/img/5.jpg") }}" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="{{ asset("frontend_file/assets/img/6.jpg") }}" />
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="{{ asset("frontend_file/assets/img/7.jpg") }}" />
                     </swiper-slide>
                 </swiper-container>
             </p>
         </div>
-        <div class="box-about">
+        <div class="box-about cv-certificate">
             <div class="box-title mb-3">
                 <i class="fa fa-drivers-license"></i>
                 <h3> تقدیر نامه ها </h3>
@@ -125,15 +137,16 @@
                     coverflow-effect-stretch="0" coverflow-effect-depth="100" coverflow-effect-modifier="1"
                     coverflow-effect-slide-shadows="true">
                     <swiper-slide>
-                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                        <img src="{{ asset("frontend_file/assets/img/Certificate/لوح-تقدیر-شرکت-2.jpg") }}"/>
                     </swiper-slide>
                     <swiper-slide>
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                        <img src="{{ asset("frontend_file/assets/img/Certificate/لوح-تقدیر-شرکت-4.jpg") }}" />
                     </swiper-slide>
                     <swiper-slide>
-                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                        <img src="{{ asset("frontend_file/assets/img/Certificate/لوح-تقدیر-فارسی.jpg") }}" />
                     </swiper-slide>
                 </swiper-container>
+
             </p>
         </div>
     </div>
