@@ -10,7 +10,7 @@
     <link rel="manifest" href="{{ asset('site.webmanifest') }}">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <title>منوی آنلاین </title>
+    <title> ZIPLINK-لینک کوتاه  </title>
 
     <link rel="stylesheet" href="{{ asset('frontend_file/assets/css/bootstrap/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend_file/assets/css/bootstrap/bootstrap.rtl.min.css') }}">
