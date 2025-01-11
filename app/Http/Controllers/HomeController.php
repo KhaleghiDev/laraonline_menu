@@ -14,6 +14,13 @@ class HomeController extends Controller
         return view("home");
     }
      /**
+     * Summary of home
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
+    public function lang(){
+        return view("lang");
+    }
+     /**
       * Summary of cv
       * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
       */

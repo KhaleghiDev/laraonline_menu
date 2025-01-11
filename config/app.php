@@ -110,6 +110,19 @@ return [
     */
 
     'faker_locale' => 'en_US',
+    /*
+|--------------------------------------------------------------------------
+| Available locales
+|--------------------------------------------------------------------------
+|
+| List all locales that your application works with
+|
+*/
+'available_locales' => [
+    'English' => 'en',
+    'Arabic' => 'ar',
+    'فارسی' => 'fa',
+  ],
 
     /*
     |--------------------------------------------------------------------------
@@ -169,6 +182,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
     ])->toArray(),
+
 
     /*
     |--------------------------------------------------------------------------

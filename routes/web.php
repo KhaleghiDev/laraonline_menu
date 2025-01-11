@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
@@ -14,11 +15,14 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', [HomeController::class,"home"])->name('home');
+Route::get('/', [HomeController::class,"lang"])->name('lang');
 
+Route::group(['prefix' => '{locale}','where' => ['locale' => '[a-zA-Z]{2}'], 'middleware' => 'setlocale'], function () {
+Route::get('/home', action: [HomeController::class,"home"])->name('home');
 Route::get('/cv', [HomeController::class,"cv"])->name('cv');
 Route::get('/about', [HomeController::class,"about"])->name('about');
 Route::get('/service', [HomeController::class,"service"])->name("service");
 Route::get('/branches',[HomeController::class,"branches"])->name("branches");
 Route::get('/branches-input',[HomeController::class,"branchesInput"])->name("branchesInput");
 Route::get('/branches-output',[HomeController::class,"branchesOutput"])->name("branchesOutput");
+});

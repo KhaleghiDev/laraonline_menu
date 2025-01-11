@@ -22,12 +22,15 @@
     @include('layouts_master.chackscrine')
     <div class="container app">
         <div class="logo"><img src="{{ asset('frontend_file/assets/img/logo.png') }}" alt="logo site"></div>
+        <div class="row">
+
         <ul class="menu">
             <li class="menu-item"><a href="{{ route('cv') }}">
                     <span class="link-icon">
                         <i class="fa-solid fa-address-card"></i>
                     </span>
                     <span class="link-text">
+                    {{ __('messages.title') }}
                         رزومه موسس
                     </span>
                 </a></li>
