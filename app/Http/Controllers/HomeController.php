@@ -6,6 +6,18 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+    public function changeLang(Request $request){
+        $lang = $request->segment(2);
+     
+        $langs=["en","ar","fa"];
+        if(!isset($lang )&& in_array($lang,$langs)){
+         return redirect()->route("lang");
+        }
+    
+        app()->setLocale($lang);
+        dd(app()->getLocale());
+
+    }
     /**
      * Summary of home
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View

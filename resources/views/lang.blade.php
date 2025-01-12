@@ -25,7 +25,7 @@
         <div class="row">
 
             <ul class="menu">
-                <li class="menu-item"><a href="{{ route('home', ['locale' => 'ar']) }}">
+                <li class="menu-item"><a href="{{ route('changeLang', ['lang' => 'ar']) }}">
                         <span class="link-icon">
                             <img src="/frontend_file/assets/img/flag/ar.png" width="32px" alt="arabic">
                         </span>
@@ -33,7 +33,7 @@
                             العربیة
                         </span>
                     </a></li>
-                <li class="menu-item"><a href="{{ route('home', ['locale' => 'fa']) }}">
+                <li class="menu-item"><a href="{{ route('changeLang', ['lang' => 'fa']) }}">
                         <span class="link-icon">
                             <img src="/frontend_file/assets/img/flag/fa.webp" width="32px" alt="فارسی">
                         </span>
@@ -41,7 +41,7 @@
                             فارسی
                         </span>
                     </a></li>
-                <li class="menu-item"><a href="{{ route('home', ['locale' => 'en']) }}">
+                <li class="menu-item"><a href="{{ route('changeLang', ['lang' => 'en']) }}">
                         <span class="link-icon">
                             <img src="/frontend_file/assets/img/flag/en.png" width="32px" alt=" English">
                         </span>

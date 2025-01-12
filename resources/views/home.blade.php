@@ -25,7 +25,7 @@
         <div class="row">
 
         <ul class="menu">
-            <li class="menu-item"><a href="{{ route('cv') }}">
+            <li class="menu-item"><a href="{{ route('cv',app()->getLocale()) }}">
                     <span class="link-icon">
                         <i class="fa-solid fa-address-card"></i>
                     </span>
@@ -34,7 +34,7 @@
                         رزومه موسس
                     </span>
                 </a></li>
-            <li class="menu-item"><a href="{{ route('about') }}">
+            <li class="menu-item"><a href="{{ route('about',app()->getLocale()) }}">
                     <span class="link-icon">
                         <i class="fa-solid fa-users"></i>
                     </span>
@@ -42,14 +42,14 @@
                         درباره ما
                     </span>
                 </a></li>
-            <li class="menu-item"><a href="{{ route('service') }}"> <span class="link-icon">
+            <li class="menu-item"><a href="{{ route('service',app()->getLocale()) }}"> <span class="link-icon">
                 <i class="fa-brands fa-teamspeak"></i>
                     </span>
                     <span class="link-text">
                         خدمات
                     </span></a></li>
             <li class="menu-item">
-                <a href="{{ route('branches') }}">
+                <a href="{{ route('branches',app()->getLocale()) }}">
                     <span class="link-icon">
                         <i class="fa-solid fa-map-location-dot"></i>
                     </span>
