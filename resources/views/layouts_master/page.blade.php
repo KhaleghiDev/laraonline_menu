@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="rtl">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir=@if ($lang=='en')
+ltr
+@else
+rtl
+@endif>
 
 <head>
     <meta charset="utf-8">
@@ -19,18 +23,18 @@
 
 </head>
 
-<body class="body">
+<body class="body" >
+
     @include('layouts_master.chackscrine')
     <div class="app">
         <div class="header-page">
             <div class="back">
 
                 <a href="{{ URL::previous() }}"><i class="fa-solid fa-chevron-right"></i></a>
-                <a class="px-3" href="{{ route('home') }}"><i class="fa-solid fa-chevron-right"></i><i
+                <a class="px-3" href="{{ route('home',$lang) }}"><i class="fa-solid fa-chevron-right"></i><i
                         class="fa-solid fa-home"></i></a>
             </div>
-            <span>{{ $title }}</span>
-            <a class="px-5" href="{{ route('home') }}">
+            <a class="px-5" href="{{ route('home',$lang) }}">
                 <div class="logo-page">
                     <img src="{{ asset('frontend_file/assets/img/logo.png') }}" alt="logo site">
                 </div>

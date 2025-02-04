@@ -1,11 +1,11 @@
 <div>
     <ul class="menu">
         <li class="menu-item"><a href="{{ route('branchesOutput',app()->getLocale()) }}">
-                <span class="link-icon" >
+                <span class="link-icon">
                     <i class="fa-solid fa-map-location"></i>
                 </span>
                 <span class="link-text">
-                    شعبه های ما در خارج کشور
+                    {{__('messages.branches_Inside')}}
                 </span>
             </a>
         </li>
@@ -14,7 +14,7 @@
                     <i class="fa-solid fa-map-location"></i>
                 </span>
                 <span class="link-text">
-                    شعبه های ما در داخل کشور
+                    {{__('messages.branches_Outside')}}
                 </span>
             </a>
         </li>

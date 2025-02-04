@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="rtl">
 
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,36 +26,35 @@
         <div class="row">
 
         <ul class="menu">
-            <li class="menu-item"><a href="{{ route('cv',app()->getLocale()) }}">
+            <li class="menu-item"><a href="{{ route('cv',$lang) }}">
                     <span class="link-icon">
                         <i class="fa-solid fa-address-card"></i>
                     </span>
                     <span class="link-text">
-                    {{ __('messages.title') }}
-                        رزومه موسس
+                    {{ __('messages.Resume_founder') }}
                     </span>
                 </a></li>
-            <li class="menu-item"><a href="{{ route('about',app()->getLocale()) }}">
+            <li class="menu-item"><a href="{{ route('about',$lang) }}">
                     <span class="link-icon">
                         <i class="fa-solid fa-users"></i>
                     </span>
                     <span class="link-text">
-                        درباره ما
+                    {{ __('messages.about_us') }}
                     </span>
                 </a></li>
-            <li class="menu-item"><a href="{{ route('service',app()->getLocale()) }}"> <span class="link-icon">
+            <li class="menu-item"><a href="{{ route('service',$lang) }}"> <span class="link-icon">
                 <i class="fa-brands fa-teamspeak"></i>
                     </span>
                     <span class="link-text">
-                        خدمات
+                    {{ __('messages.Services') }}
                     </span></a></li>
             <li class="menu-item">
-                <a href="{{ route('branches',app()->getLocale()) }}">
+                <a href="{{ route('branches',$lang) }}">
                     <span class="link-icon">
                         <i class="fa-solid fa-map-location-dot"></i>
                     </span>
                     <span class="link-text">
-                        شعب
+                    {{ __('messages.branches') }}
                     </span>
                 </a>
             </li>

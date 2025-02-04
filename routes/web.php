@@ -16,10 +16,10 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class,"lang"])->name('lang');
-Route::get('/chnge/{lang?}', [HomeController::class,"changeLang"])->name('changeLang');
+Route::get('/{lang?}', [HomeController::class,"changeLang"])->name('changeLang');
 
 
-Route::group(['prefix' => '{locale}'], function () {
+Route::group(['prefix' => '{lang}'], function () {
     Route::get('/home', action: [HomeController::class,"home"])->name('home');
     Route::get('/cv', [HomeController::class,"cv"])->name('cv');
     Route::get('/about', [HomeController::class,"about"])->name('about');
@@ -28,3 +28,11 @@ Route::group(['prefix' => '{locale}'], function () {
     Route::get('/branches-input',[HomeController::class,"branchesInput"])->name("branchesInput");
     Route::get('/branches-output',[HomeController::class,"branchesOutput"])->name("branchesOutput");
 });
+// Auth::routes();
+
+
+ Route::get('/configclear',function(){
+ \Artisan::call('route:clear');
+ \Artisan::call('optimize');
+ });
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
